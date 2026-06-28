@@ -1,0 +1,69 @@
+body{
+margin: 0 auto;
+
+}
+
+.catalog{
+   background-color: white; 
+   margin-left: 25%;
+}
+
+header{
+    background-color: #343536;
+    color: rgb(126, 123, 123);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.nav a{
+    color: rgb(126, 123, 123);
+    text-decoration: none;
+    padding: 10px;
+    background-color: #343536;
+}
+
+.product img{
+    margin: 20px;
+    width: 130px;
+    height: 100px;
+}
+
+.product h2{
+    text-align: right;
+    bottom: 130px;
+}
+
+.product{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: 200px;
+    padding: 3px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.dodaty{
+    background-color: #505152;
+    color: rgb(126, 123, 123);
+    text-decoration: none;
+    padding: 10px;
+    height: 30px;
+}
+
+.dodaty:hover{
+    background-color: rgb(126, 123, 123);
+    color: #343536;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dodaty:active{
+    background-color: #1f7a22;
+    color: rgb(124, 126, 123);
+    text-decoration: none;
+    padding: 10px;
+}
